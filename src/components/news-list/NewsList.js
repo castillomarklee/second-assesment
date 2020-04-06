@@ -7,7 +7,7 @@ const NewsList = ({ newsItems }) => {
     }
     const news = newsItems.map((data, key) => {
         return (
-            <div className="ui segment">
+            <div className="ui segment" key={key}>
                 <NewsItem 
                     imageUrl={data.urlToImage} 
                     title={data.title} 
