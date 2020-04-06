@@ -1,0 +1,22 @@
+.news-item-flex-container {
+    display: flex;
+    // align-items: center;
+    justify-content: center;
+}
+
+.news-item-flex-box {
+    flex: 1;
+    img {
+        width: 400px;
+        height: 310px;
+    }
+    margin-right: 15px;
+}
+
+.news-item-flex-box:last-child {
+    flex: 2;
+    p {
+        font-size: 17px;
+        padding-top: 15px;
+    }
+}
